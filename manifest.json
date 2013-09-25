@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "John VanOrange",
+  "description": "Easily add images to John VanOrange",
+  "version": "0.0.2",
+	"minimum_chrome_version": "28",
+	"icons": {
+		"16": "icons/16.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+  "permissions": [
+		"contextMenus",
+		"notifications",
+    "http://johnvanorange.com/"
+  ]
+}
